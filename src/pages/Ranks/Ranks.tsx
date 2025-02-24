@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import Header from '../../components/Header/Header'
 import { useAuth } from '../../contexts/AuthContext'
-import "./Ranks.styles.scss"
 import { IAllStreaks, INewsOpen } from '../DashboardAdmin/DashboardAdmin.types'
 import StreakService from '../../services/StreakService'
 import Spinner from '../../components/Spinner/Spinner'
 import NewsService from '../../services/NewsService'
 import { DataItem } from './Ranks.types'
+import "./Ranks.styles.scss"
 
 const Ranks = () => {
     const [_isLoading, _setIsLoading] = useState<boolean>(true)
