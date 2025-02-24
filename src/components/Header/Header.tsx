@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 import "./Header.styles.scss"
 import { IHeader } from './Header.types'
 import SvgEmail from '../SVGs/SvgEmail'

@@ -1,4 +1,3 @@
-import * as React from "react"
 import { SVGProps } from "react"
 const SvgEmail = ({ fill = "#FFCF00", ...props }: SVGProps<SVGSVGElement>) => (
   <svg

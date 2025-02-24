@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 import "./TotalStreaks.styles.scss"
 import { ITotalStreaks } from './TotalStreaks.types'
 import SvgCorrected from '../SVGs/SvgCorrected'

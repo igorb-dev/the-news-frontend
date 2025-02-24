@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 import "./Streaks.styles.scss"
 import SvgCalendar from '../SVGs/SvgCalendar'
 import { IStreaks } from './Streaks.types'

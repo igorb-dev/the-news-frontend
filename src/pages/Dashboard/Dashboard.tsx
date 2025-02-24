@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import "./Dashboard.styles.scss"
 import Header from '../../components/Header/Header'
 import { useAuth } from '../../contexts/AuthContext'
@@ -11,7 +11,6 @@ import Spinner from '../../components/Spinner/Spinner'
 import MessageService from '../../services/MessageService'
 import NewsService from '../../services/NewsService'
 import NewsOpen from '../../components/NewsOpen/NewsOpen'
-import Historic from '../../components/HistoricOLd/Historic'
 
 const Dashboard = () => {
     const [_strike, _setStrike] = useState<IStrike>({count: 0, lastOpened: ""})

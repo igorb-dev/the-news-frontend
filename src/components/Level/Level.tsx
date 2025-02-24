@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 import "./Level.styles.scss"
 import { ILevel } from './Level.types'
 import SvgPlayer from '../SVGs/SvgPlayer'

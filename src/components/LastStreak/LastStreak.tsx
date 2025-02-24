@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 import "./LastStreak.styles.scss"
 import { ILastStreak } from './LastStreak.types'
 import SvgCorrected from '../SVGs/SvgCorrected'

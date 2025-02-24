@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import "./Home.styles.scss"
 import Menu from '../../components/Menu/Menu'
 import Dashboard from '../Dashboard/Dashboard';

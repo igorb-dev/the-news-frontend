@@ -1,4 +1,4 @@
-import React, { FC, useState } from 'react'
+import { FC } from 'react'
 import "./MenuSmall.styles.scss"
 import SvgDashboard from '../SVGs/SvgDashboard'
 import SvgHistory from '../SVGs/SvgHistory';

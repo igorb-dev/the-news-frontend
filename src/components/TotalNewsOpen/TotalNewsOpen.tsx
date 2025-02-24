@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 import "./TotalNewsOpen.styles.scss"
 import { ITotalNewsOpen } from './TotalNewsOpen.types'
 import SvgNews from '../SVGs/SvgNews'

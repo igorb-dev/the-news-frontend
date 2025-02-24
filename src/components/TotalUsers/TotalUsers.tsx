@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 import "./TotalUsers.styles.scss"
 import { ITotalUsers } from './TotalUsers.types'
 import SvgUser from '../SVGs/SvgUser'
