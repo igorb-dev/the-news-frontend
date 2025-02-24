@@ -1,0 +1,187 @@
+.Ranks {
+    width: 100%;
+    height: 100%;
+    padding: 8px 0;
+
+    .container-spinner {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .container-ranks {
+        margin-bottom: 60px;
+        display: flex;
+        gap: 24px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container-rank-streak {
+        width: 90%;
+        height: 280px;
+        background-color: #fff;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 64px;
+
+        .container-title {
+            width: calc(100% - 32px);
+            margin-top: -24px;
+            height: 56px;
+            background-color: #FFCF00;
+            border-radius: 12px;
+            display: flex;
+            justify-content: baseline;
+            align-items: center;
+        }
+
+        .title {
+            color: #222;
+            font-size: 16px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: 24px;
+            font-weight: bold;
+        }
+
+        .container-subtitle {
+            display: flex;
+            justify-content: baseline;
+            align-items: center;
+            width: 100%;
+    
+            .subtitle-one {
+                width: 300px;
+                margin: 24px 0 12px 24px;
+                color: rgb(123, 128, 154);
+                font-size: 12px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+    
+            .subtitle-two {
+                width: 100px;
+                margin: 24px 0 12px 0;
+                color: rgb(123, 128, 154);
+                font-size: 12px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+        }
+
+        .scroller {
+            height: 200px;
+            width: 100%;
+        }
+    
+        .container-data {
+            display: flex;
+            justify-content: baseline;
+            align-items: center;
+            width: 100%;
+            border-top: 1px solid rgba(123, 128, 154, .2);
+            
+    
+            .data-one {
+                width: 300px;
+                margin: 24px 0 24px 24px;
+                color: #222;
+                font-size: 14px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+    
+            .data-two {
+                width: 100px;
+                margin: 24px 0;
+                color: #222;
+                font-size: 14px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+        }
+    }
+
+    .container-rank-news-open {
+        width: 90%;
+        height: 280px;
+        background-color: #fff;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 64px;
+
+        .container-title {
+            width: calc(100% - 32px);
+            margin-top: -24px;
+            height: 56px;
+            background-color: #FFCF00;
+            border-radius: 12px;
+            display: flex;
+            justify-content: baseline;
+            align-items: center;
+        }
+
+        .title {
+            color: #222;
+            font-size: 16px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: 24px;
+            font-weight: bold;
+        }
+
+        .container-subtitle {
+            display: flex;
+            justify-content: baseline;
+            align-items: center;
+            width: 100%;
+    
+            .subtitle-one {
+                width: 300px;
+                margin: 24px 0 12px 24px;
+                color: rgb(123, 128, 154);
+                font-size: 12px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+    
+            .subtitle-two {
+                width: 100px;
+                margin: 24px 0 12px 0;
+                color: rgb(123, 128, 154);
+                font-size: 12px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+        }
+
+        .scroller {
+            height: 200px;
+            width: 100%;
+        }
+    
+        .container-data {
+            display: flex;
+            justify-content: baseline;
+            align-items: center;
+            width: 100%;
+            border-top: 1px solid rgba(123, 128, 154, .2);
+            
+    
+            .data-one {
+                width: 300px;
+                margin: 24px 0 24px 24px;
+                color: #222;
+                font-size: 14px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+    
+            .data-two {
+                width: 100px;
+                margin: 24px 0;
+                color: #222;
+                font-size: 14px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+        }
+    }
+}

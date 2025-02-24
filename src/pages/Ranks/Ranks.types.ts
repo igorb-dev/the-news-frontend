@@ -1,0 +1,1 @@
+export type DataItem = { user: { email: string } };

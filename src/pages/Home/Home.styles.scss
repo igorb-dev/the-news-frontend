@@ -1,0 +1,39 @@
+.Home {
+    display: flex;
+    align-items: center;
+    background-color: #EDEFF2;
+    width: 100%;
+
+    .container-pages {
+        width: calc(100vw - 298px);
+        height: calc(100vh - 64px);
+    }
+
+    .container-menu-big {
+        display: block;
+    }
+
+    .container-menu-small {
+        display: none;
+    }
+
+    @media (max-width: 800px) {
+        width: 100vw;
+        height: 100vh;
+
+        .container-pages {
+            width: calc(100vw - 60px);
+            height: calc(100vh - 64px);
+            padding: 24px 0 24px 0;
+            margin-right: 24px;
+        }
+
+        .container-menu-big {
+            display: none;
+        }
+
+        .container-menu-small {
+            display: block;
+        }
+    }
+}

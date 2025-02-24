@@ -1,0 +1,24 @@
+.Header {
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .title, .email {
+        color: #222;
+        font-size: 16px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .container-email {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+    }
+
+    @media (max-width: 790px) {
+        width: 100%;
+        flex-direction: column;
+    }
+}

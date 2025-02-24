@@ -1,0 +1,84 @@
+.TotalStreaks {
+    padding: 24px 0px 0px 24px;
+    position: relative;
+    width: 30%;
+    min-width: 208px;
+
+    .container-white {
+        width: 100%;
+        height: 116px;
+        background-color: #fff;
+        border-radius: 8px;
+
+        .info-TotalStreaks {
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            padding: 8px 16px 0;
+
+            .streaks {
+                color: #222;
+                font-size: 16px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            .number {
+                color: #222;
+                font-size: 32px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+        }
+
+        .detail {
+            flex-shrink: 0;
+            border-top: 0px solid rgba(0, 0, 0, 0.08);
+            border-right: 0px solid rgba(0, 0, 0, 0.08);
+            border-left: 0px solid rgba(0, 0, 0, 0.08);
+            height: 0.0625rem;
+            margin: 10px 0px;
+            border-bottom: none;
+            opacity: 0.25;
+            background-color: transparent;
+            background-image: linear-gradient(to right, rgba(34, 34, 34, 0), #222, rgba(34, 34, 34, 0)) !important;
+        }
+
+        .info {
+            display: flex;
+            align-items: center;
+            margin: 0 24px;
+        }
+
+        .info p {
+            color: #222;
+            font-size: 12px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    }
+
+    .icon {
+        width: 64px;
+        height: 64px;
+        background: linear-gradient(to top, #FFCF00, #FDE36C) !important;
+        border-radius: 12px;
+        position: absolute;
+        top: 10px;
+        left: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media (max-width: 1060px) {
+        width: 100%;
+    }
+
+    @media (max-width: 780px) {
+        width: 100%;
+        padding-left: 0;
+
+        .icon {
+            left: 20px;
+        }
+    }
+
+}

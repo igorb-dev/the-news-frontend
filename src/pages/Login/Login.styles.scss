@@ -1,0 +1,79 @@
+.Login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container-center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+
+        .title {
+            color: #222;
+            font-size: 48px;
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    
+        .subtitle {
+            color: #222;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .container-email {
+            margin-top: 20px;
+            width: 512px;
+            height: 64px;
+            border: 2px solid #FFCF00;
+            border-radius: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .container-input{
+                width: calc(100% - 140px);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 6px;
+
+                .input-email {
+                    height: 90%;
+                    width: 90%;
+                    //all: unset;
+                    font-size: 20px;
+                    border: none;
+                    outline: none;
+                }
+            }
+
+            .button {
+                height: 52px;
+                width: 140px;
+                margin-right: 6px;
+                border-radius: 8px;
+                background-color: #FFCF00;
+                border: none;
+                color: #222;
+                font-size: 20px;
+            }
+
+            .button:hover {
+                cursor: pointer;
+            }
+        }
+        .label-error {
+            margin-left: 6px;
+            color: red;
+            margin-bottom: 8px,
+        }
+    }
+
+    
+
+}
