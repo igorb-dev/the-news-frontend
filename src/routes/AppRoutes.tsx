@@ -12,7 +12,7 @@ const PrivateRoute = ({ children }: { children: JSX.Element }) => {
 
 const AppRoutes = () => {
   return (
-    <Router>
+    <Router basename="/the-news-frontend">
       <Routes>
         <Route path="/" element={<Login />} />
         <Route

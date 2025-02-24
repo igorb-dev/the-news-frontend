@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://the-news-backend.onrender.com/auth/";
+const API_URL = "https://the-news-backend.onrender.com/auth/";
 
 class AuthService {
   public static async PostLogin(email: string): Promise<any> {
