@@ -1,13 +1,16 @@
 {
   "name": "the-news-frontend",
   "private": true,
+  "homepage": "https://igorb-dev.github.io/the-news-frontend",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@hookform/resolvers": "^4.1.0",
@@ -32,6 +35,7 @@
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.18",
+    "gh-pages": "^6.3.0",
     "globals": "^15.14.0",
     "prettier": "^3.5.1",
     "typescript": "~5.7.2",
